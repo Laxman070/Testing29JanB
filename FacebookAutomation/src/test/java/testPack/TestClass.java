@@ -24,7 +24,10 @@ public class TestClass {
 		loginpage.ClickOnLogin();
 		
 		String url = driver.getCurrentUrl();
-	
+		
+		
+		
+		String title = driver.getTitle();
 		
 				
 		
